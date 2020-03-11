@@ -1,0 +1,49 @@
+{
+	"name": "mocky-cli",
+	"version": "1.0.0",
+	"description": "Mock your HTTP responses to test your REST API",
+	"main": "cli.js",
+	"bin": {
+		"mocky": "cli.js"
+	},
+	"scripts": {
+		"xo:check": "xo"
+	},
+	"keywords": [
+		"mocky",
+		"mockyio",
+		"rest",
+		"test",
+		"api",
+		"mock",
+		"response",
+		"cli"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	},
+	"author": "Aleksandar Stojanoski",
+	"license": "MIT",
+	"homepage": "https://github.com/acestojanoski/mocky-cli#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acestojanoski/mocky-cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/acestojanoski/mocky-cli/issues"
+	},
+	"dependencies": {
+		"acejax": "^2.0.1",
+		"args-flagify": "^2.1.0"
+	},
+	"devDependencies": {
+		"xo": "^0.27.2"
+	},
+	"xo": {
+		"prettier": true,
+		"rules": {
+			"no-unused-vars": "warn",
+			"no-useless-escape": "warn"
+		}
+	}
+}
